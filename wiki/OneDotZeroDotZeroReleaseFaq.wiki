@@ -24,11 +24,11 @@ Yes. You just need to add several files. Refer to CommandLineTutorial for detail
 
 *How do I created .mxf files ?*
 
-Use [http:\\www.cinecert.com\asdcplib asdcplib] or any other digtal cinema package creation tool.
+Use [http://www.cinecert.com/asdcplib asdcplib] or any other digtal cinema package creation tool.
 
 *Some parts of the code source look like asdcplib, why ?*
 
-mkcpl, mkpkl and mkmap are heavely inspired from [http:\\www.cinecert.com\asdcplib asdcplib]. Collaboration with it's author as been the kickstart this project needed. Thanks John :)
+mkcpl, mkpkl and mkmap are heavely inspired from [http://www.cinecert.com/asdcplib asdcplib]. Collaboration with it's author as been the kickstart this project needed. Thanks John :)
 
 ==Compilation==
 *How to compile with Visual Studio ?*
