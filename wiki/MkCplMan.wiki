@@ -18,7 +18,7 @@ mkcpl - Create a composition playlist
 
 *mkcpl --kind* contentkind *--title* "title" *[--norating]* picture.mxf sound.mxf
 
-*mkcpl [-h | --help] [-V | --version]
+*mkcpl [-h | --help] [-V | --version]*
 
 ==DESCRIPTION==
 Creates a composition playlist displayed on the standard output.
