@@ -25,7 +25,9 @@ Creates a composition playlist which is displayed on stdout.
 You need to redirect the output to create a file. See examples below.
 
 ==OPTIONS==
-  -h | --help                      - Show help\n\
+*-h | --help*
+Show help
+
   -V | --version                   - Show version information\n\
   --kind contentkind               - Content kind. Could be one of the\n\
                                      following: feature, trailer, test,\n\
