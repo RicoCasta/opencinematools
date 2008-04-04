@@ -1,10 +1,10 @@
 #summary One-sentence summary of this page.
 
-*NOM*
+==NOM==
 
 mkcpl - Create a composition playlist
 
-*SYNOPSIS*
+==SYNOPSIS==
 
 *mkcpl --kind* contentkind *--title* "title" picture.mxf sound.mxf [picture2.mxf sound2.mxf...]
 
@@ -20,7 +20,7 @@ mkcpl - Create a composition playlist
 
 *mkcpl [-h | --help] [-V | --version]
 
-*DESCRIPTION*
+==DESCRIPTION==
 
   -h | --help                      - Show help\n\
   -V | --version                   - Show version information\n\
@@ -43,4 +43,3 @@ mount [-hV]
 mount -a [-fFnrsvw] [-t type] [-o options]
 mount [-fnrsvw] [-o options [,...]] périph | rép
 mount [-fnrsvw] [-t type] [-o options] périph rép
-
