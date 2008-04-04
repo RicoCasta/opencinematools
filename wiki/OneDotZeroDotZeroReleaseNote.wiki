@@ -1,0 +1,14 @@
+#summary Release Note 1.0.0
+
+= General =
+
+This is the first release. This version includes 3 command line tools:
+  * mkcpl
+  * mkpkl
+  * mkmap
+
+There is currently no GUI. Subtitles are not supported.
+Only JP2K and PCM 48k are supported.
+
+= Known Issues =
+  * different errors can return the same return code for the command line tools
