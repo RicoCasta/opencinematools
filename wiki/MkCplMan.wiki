@@ -64,7 +64,7 @@ Version UID. Default generates a new id.
 
 ==RETURN CODES==
 
-mkcpl has the following return code:
+*mkcpl* has the following return code:
 
 *0* Success
 || other return codes need to be added here ||
