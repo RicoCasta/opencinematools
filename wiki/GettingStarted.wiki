@@ -1,0 +1,33 @@
+#summary Open Cinema Tools Wiki Index
+
+= Introduction =
+
+The goals for Open Cinema Tools are:
+
+    * creation of DCP from source files
+    * support for multi-reel DCPs with several audio and subtitle tracks
+    * development of an intuitive, multi-lingual user interface 
+
+See www.opencinematools.org for executive details.
+
+= Release Notes =
+== Release 1.0.0 ==
+This is the first release. This version includes 3 command line tools:
+  * [MkCpl mkcpl]
+  * [MkPkl mkpkl]
+  * [MkMap mkmap]
+There is currently no GUI. Subtitles are not supported.
+
+[http://code.google.com/p/opencinematools/downloads/list Download]
+
+[OneDotZeroDotZeroReleaseNote Release Notes]
+
+[OneDotZeroDotZeroReleaseFaq FAQ]
+
+= Tutorials =
+[CommandLineTutorial How to create a DCP using comand line tools?]
+
+= FAQ =
+[GeneralFaq General]
+
+[OneDotZeroDotZeroReleaseFaq Release 1.0.0 FAQ]
