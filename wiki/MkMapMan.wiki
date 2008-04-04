@@ -32,7 +32,7 @@ You can add as many files as you want if they are of the previously described ty
 
 ==RETURN CODES==
 
-mkpkl has the following return code:
+*mkpkl* has the following return code:
 
 *0* Success
 || other return codes need to be added here ||
