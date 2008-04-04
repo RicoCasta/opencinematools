@@ -15,6 +15,8 @@ See www.opencinematools.org for executive details.
 
 [GuiDesign Graphical design of the user interface]
 
+[DcdmContraints DCDM Constraints]
+
 = Release Notes =
 == Release 1.0.0 ==
 This is the first release. This version includes 3 command line tools:
