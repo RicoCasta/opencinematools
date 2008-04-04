@@ -10,7 +10,7 @@ mkcpl - Create a composition playlist
 
 *mkcpl --kind* contentkind *--title* "title" *[--annotation* "annotation"*] [--issuer* "issuer"*]* picture.mxf sound.mxf
 
-*mkcpl --kind* contentkind *--title* "title" *[--ratio* "aspectratio"*]* picture.mxf sound.mxf
+*mkcpl --kind* contentkind *--title* "title" *[--ratio* "aspectratio"*]* picture.mxf  sound.mxf
 
 *mkcpl --kind* contentkind *--title* "title" *[--versionid* uid*] [--versionlabel* label*]* picture.mxf sound.mxf
 
@@ -26,22 +26,41 @@ You need to redirect the output to create a file. See examples below.
 
 ==OPTIONS==
 *-h | --help*
-Show help
+  Show help
 
-  -V | --version                   - Show version information\n\
-  --kind contentkind               - Content kind. Could be one of the\n\
-                                     following: feature, trailer, test,\n\
-                                     teaser, rating, advertisement,\n\
-                                     short, transitional, psa, policy)\n\
-  --title \"title\"                  - Content title\n\
-  --annotation \"annotation\"        - Annotation text\n\
-  --issuer \"issuer\"                - Issuer name\n\
-  --ratio \"aspectratio\"            - Aspect ratio. Default is \"2048 1080\"\n\
-  --versionid uid                    - Version UID. Default generates a new id\n\
-  --versionlabel label               - Version label. Default is the versionid\n\
-  --rating agency label              - Defines a rating agency and label.\n\
-                                       Default is --rating http://www.mpaa.org G\n\
-  --norating                         - Removes the default rating.\n\
+*-V | --version*               
+  Show version information
+
+*--kind* contentkind
+  Content kind. Could be one of the following:
+  feature, trailer, test, teaser, rating, advertisement,
+  short, transitional, psa, policy
+
+*--title* "title"
+  Content title.
+
+*--annotation* "annotation"
+  Annotation text
+
+*--issuer* "issuer"
+  Issuer name
+
+*--ratio* "aspectratio"
+Aspect ratio. Default is taken from the asset. 
+This option is to override the asset aspect ratio.
+
+*--versionid* uid
+Version UID. Default generates a new id.
+
+*--versionlabel* label
+  Version label. Default is the versionid.
+
+*--rating agency* label
+  Defines a rating agency and label.
+  Default is --rating http://www.mpaa.org G
+
+*--norating*
+  Removes the default rating.
 
 ==RETURN CODES==
 
