@@ -1,0 +1,89 @@
+#summary MAN Page of mkpkl
+
+==NOM==
+
+mkpkl - Create a packing list
+
+==SYNOPSIS==
+
+*mkpkl* file*[*file...*]*
+
+*mkpkl* *[--annotation* "annotation"*] [--issuer* "issuer"*]* file*[*file...*]*
+
+*mkpkl [-h | --help] [-V | --version]*
+
+==DESCRIPTION==
+Creates a composition playlist displayed on the standard output.
+You need to redirect the output to create a file. See examples below.
+
+==OPTIONS==
+*-h | --help*
+  Show help
+
+*-V | --version*               
+  Show version information
+
+*--kind* contentkind
+  Content kind. Could be one of the following:
+  feature, trailer, test, teaser, rating, advertisement,
+  short, transitional, psa, policy
+
+*--title* "title"
+  Content title.
+
+*--annotation* "annotation"
+  Annotation text
+
+*--issuer* "issuer"
+  Issuer name
+
+*--ratio* "aspectratio"
+Aspect ratio. Default is taken from the asset. 
+This option is to override the asset aspect ratio.
+
+*--versionid* uid
+Version UID. Default generates a new id.
+
+*--versionlabel* label
+  Version label. Default is the versionid.
+
+*--rating* agency label
+  Defines a rating agency and label.
+  Default is *--rating* http://www.mpaa.org G
+
+*--norating*
+  Removes the default rating.
+
+==RETURN CODES==
+
+mkcpl has the following return code:
+
+*0* Success
+|| other return codes need to be added here ||
+
+==EXAMPLE==
+===Single reel feature with default rating===
+
+*mkcpl --kind* feature *--title* "my movie" mypicture.mxf mysound.mxf *>* mymoviecompo.cpl.xml
+
+===Single reel test with no rating===
+
+*mkcpl --kind* test *--title* "my test" *-norating* mypicture.mxf mysound.mxf *>* mytestcompo.cpl.xml
+
+===Single reel feature with a PG-13 rating===
+
+*mkcpl --kind* feature *--title* "my movie" *--rating* http://www.mpaa.org PG-13 mypicture.mxf mysound.mxf *>* mymoviecompo.cpl.xml
+
+===Multi reel feature===
+  The 3 examples have the same results. The picture/sound order doesn't matter.
+
+  The *mkcpl* application associates the first picture in the list with the first sound in the list and so on.
+
+*mkcpl --kind* feature *--title* "my movie" mypicture-1.mxf mysound-1.mxf mypicture-2.mxf mysound-2.mxf *>* mymoviecompo.cpl.xml
+
+*mkcpl --kind* feature *--title* "my movie" mysound-1.mxf mypicture-1.mxf mypicture-2.mxf mysound-2.mxf *>* mymoviecompo.cpl.xml
+
+*mkcpl --kind* feature *--title* "my movie" mypicture-1.mxf mypicture-2.mxf mysound-1.mxf  mysound-2.mxf *>* mymoviecompo.cpl.xml
+
+==SEE ALSO==
+[MkPklMan mkpkl], [MkMapMan mkmap]
