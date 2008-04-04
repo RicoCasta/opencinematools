@@ -41,7 +41,7 @@ Download the vs2005 version, open OpenCinemaTools.sln and compile.
 
 *How to compile on Linux/MacOS ?*
 
-Compile asdcplib with expat support(see asdplib doc for details).
+Compile asdcplib 1.3.18 with expat support(see asdplib doc for details).
 Compile mkcpl.cpp, mkpkl.cpp and mkmap.cpp individually.
 Than link each of them with asdcplib, openssl and expat.
 
