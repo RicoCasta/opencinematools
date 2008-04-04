@@ -26,11 +26,19 @@ Yes. You just need to add several files. Refer to CommandLineTutorial for detail
 
 Use [http://www.cinecert.com/asdcplib asdcplib] or any other digtal cinema package creation tool.
 
-*Some parts of the code source look like asdcplib, why ?*
-
-mkcpl, mkpkl and mkmap use and are heavely inspired from [http://www.cinecert.com/asdcplib asdcplib]. Collaboration with it's author as been the kickstart this project needed. Thanks John :)
-
 ==Compilation==
 *How to compile with Visual Studio ?*
 
 *How to compile on Linux/MacOS ?*
+
+*Is my OS supported ?*
+
+The answer is simple, if asdcplib, openssl and expat compile on your OS, the command line tools should compile too.
+
+*Where is the makefile ?*
+
+Cuurently, no makefile exists. You need to compile and link with asdcplib, openssl and expat.
+
+*Some parts of the code source look like asdcplib, why ?*
+
+mkcpl, mkpkl and mkmap use and are heavely inspired from [http://www.cinecert.com/asdcplib asdcplib]. Collaboration with it's author as been the kickstart this project needed. Thanks John :)
