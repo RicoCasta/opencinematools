@@ -1,4 +1,6 @@
-#summary Faqs
+#summary Release 1.1.0 Faqs
 
 = Release 1.0.0 Frequently Asked Questions =
-
+==General==
+* How can I
+==Compilation==
