@@ -32,7 +32,7 @@ There is currently no GUI. Subtitles are not supported.
 [OneDotZeroDotZeroReleaseFaq FAQ]
 
 = Tutorials =
-[CommandLineTutorial How to create a DCP using command line tools?]
+[CommandLineTutorial How to create a DCP using command line tools ?]
 
 = FAQ =
 [GeneralFaq General]
