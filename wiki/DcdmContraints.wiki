@@ -1,5 +1,7 @@
 #summary DCDM Constraints
 
+|| *These contraints are subject to change and are purely informative. Contact server manufacturer for detailed info.* ||
+
 = DCDM Constraints =
 Here is a simple overview of the current industry contraints.
 A detailed view will come later on.
