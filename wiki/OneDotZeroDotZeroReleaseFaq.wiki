@@ -46,7 +46,10 @@ The answer is simple, if asdcplib, openssl and expat compile on your OS, the com
 
 *Where is the makefile ?*
 
-Cuurently, no makefile exists. You need to compile and link with asdcplib, openssl and expat. A future version will include a makefile for easier build.
+Currently, no makefile exists. You need to compile and link with asdcplib, openssl and expat. A future version will include a makefile for easier build.
+
+*Is the source code on SVN ?*
+Not yet, but it will be available soon.
 
 *Some parts of the code source look like asdcplib, why ?*
 
