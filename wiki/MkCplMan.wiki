@@ -1,0 +1,46 @@
+#summary One-sentence summary of this page.
+
+*NOM*
+
+mkcpl - Create a composition playlist
+
+*SYNOPSIS*
+
+*mkcpl --kind* contentkind *--title* "title" picture.mxf sound.mxf [picture2.mxf sound2.mxf...]
+
+*mkcpl --kind* contentkind *--title* "title" *[--annotation* "annotation"*] [--issuer* "issuer"*]* picture.mxf sound.mxf
+
+*mkcpl --kind* contentkind *--title* "title" *[--ratio* "aspectratio"*]* picture.mxf sound.mxf
+
+*mkcpl --kind* contentkind *--title* "title" *[--versionid* uid*] [--versionlabel* label*]* picture.mxf sound.mxf
+
+*mkcpl --kind* contentkind *--title* "title" *[--rating agency* label*]* picture.mxf sound.mxf
+
+*mkcpl --kind* contentkind *--title* "title" *[--norating]* picture.mxf sound.mxf
+
+*mkcpl [-h | --help] [-V | --version]
+
+*DESCRIPTION*
+
+  -h | --help                      - Show help\n\
+  -V | --version                   - Show version information\n\
+  --kind contentkind               - Content kind. Could be one of the\n\
+                                     following: feature, trailer, test,\n\
+                                     teaser, rating, advertisement,\n\
+                                     short, transitional, psa, policy)\n\
+  --title \"title\"                  - Content title\n\
+  --annotation \"annotation\"        - Annotation text\n\
+  --issuer \"issuer\"                - Issuer name\n\
+  --ratio \"aspectratio\"            - Aspect ratio. Default is \"2048 1080\"\n\
+  --versionid uid                    - Version UID. Default generates a new id\n\
+  --versionlabel label               - Version label. Default is the versionid\n\
+  --rating agency label              - Defines a rating agency and label.\n\
+                                       Default is --rating http://www.mpaa.org G\n\
+  --norating                         - Removes the default rating.\n\
+
+mount [-hV]
+
+mount -a [-fFnrsvw] [-t type] [-o options]
+mount [-fnrsvw] [-o options [,...]] périph | rép
+mount [-fnrsvw] [-t type] [-o options] périph rép
+
