@@ -6,7 +6,7 @@
 
 Only command line creation is currently supported. Refer to CommandLineTutorial for details.
 
-*On windows, I can't execute mkcpl, mkpkl nor mkmap. Some DLL are missing.*
+*On Windows, I can't execute mkcpl, mkpkl nor mkmap. Some DLL are missing.*
 
 Install the [http://www.microsoft.com/downloads/details.aspx?FamilyID=9B2DA534-3E03-4391-8A4D-074B9F2BC1BF&displaylang=en Microsoft Visual C++ 2008 Redistributable Package (x86)]
 
