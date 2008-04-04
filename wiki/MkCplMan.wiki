@@ -70,20 +70,20 @@ mkcpl has the following return code:
 || other return codes need to be added here ||
 
 ==EXAMPLE==
-*Single reel feature with default rating*
+==Single reel feature with default rating==
 
 *mkcpl --kind* feature *--title* "my movie" mypicture.mxf mysound.mxf *>* mymoviecompo.cpl.xml
 
-*Single reel test with no rating*
+==Single reel test with no rating==
 
 *mkcpl --kind* test *--title* "my test" *-norating* mypicture.mxf mysound.mxf *>* mytestcompo.cpl.xml
 
-*Single reel feature with a PG-13 rating*
+==Single reel feature with a PG-13 rating==
 
 *mkcpl --kind* feature *--title* "my movie" *--rating* http://www.mpaa.org PG-13 mypicture.mxf mysound.mxf *>* mymoviecompo.cpl.xml
 
-*Multi reel feature*
-  The 3 examples have teh same results. The picture/sound order doesn't matter.
+==Multi reel feature==
+  The 3 examples have the same results. The picture/sound order doesn't matter.
 
   The *mkcpl* application associates the first picture in the list with the first sound in the list and so on.
 
