@@ -22,6 +22,7 @@ mkcpl - Create a composition playlist
 
 ==DESCRIPTION==
 
+==OPTIONS==
   -h | --help                      - Show help\n\
   -V | --version                   - Show version information\n\
   --kind contentkind               - Content kind. Could be one of the\n\
@@ -38,8 +39,12 @@ mkcpl - Create a composition playlist
                                        Default is --rating http://www.mpaa.org G\n\
   --norating                         - Removes the default rating.\n\
 
-mount [-hV]
+==RETURN CODES==
 
-mount -a [-fFnrsvw] [-t type] [-o options]
-mount [-fnrsvw] [-o options [,...]] périph | rép
-mount [-fnrsvw] [-t type] [-o options] périph rép
+mkcpl has the following return code:
+
+*0* Success
+|| other return codes need to be added here ||
+
+==SEE ALSO==
+[MkPklMan mkpkl], [MkMapMan mkmap]
