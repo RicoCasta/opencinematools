@@ -1,4 +1,4 @@
-#summary Command Line Tools Tutorial
+#summary Command Line Tools DCP Tutorial
 
 = Introduction =
 There are several steps to create digital cinema package:
@@ -9,9 +9,24 @@ There are several steps to create digital cinema package:
   # Create an asset map
   # Copy the files on a compliant media
 
+= 1. Color Transform =
+Color transform is not yet supported at this state of the project.
+The [http://www.oscars.org/council/ctl.html Color Transform Language (CTL)] API can help you to support color tranform if you project needs it.
 
-= Details =
+= 2. MXF Files Creation =
+The current version of OpenCinemaTools doesn't currently support MXF file creation.
+[http://www.cinecert.com/asdcplib asdcplib] can help you to create MXF files.
 
-[MkCplMan mkcpl]
-  * [MkPklMan mkpkl]
-  * [MkMapMan mkmap]
+= 3. Composition Playlist Creation =
+A composition playlist can be created with [MkCplMan mkcpl].
+
+= 4. Packing List Creation =
+A packing list can be created with [MkPklMan mkpkl].
+
+= 5. Asset Map Creation =
+An asset map can be created with [MkMapMan mkmap].
+
+= 6. Copy To Media =
+A simple file copy on an ext2 media would be fine. 
+*This information may vary from a manufacturer to another, so please check with them.*
+  
