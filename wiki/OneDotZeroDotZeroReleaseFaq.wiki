@@ -29,7 +29,13 @@ Use [http://www.cinecert.com/asdcplib asdcplib] or any other digtal cinema packa
 ==Compilation==
 *How to compile with Visual Studio ?*
 
+Download the vs2005 version, open OpenCinemaTools.sln and compile.
+
 *How to compile on Linux/MacOS ?*
+
+Compile asdcplib with expat support(see asdplib doc for details).
+Compile mkcpl.cpp, mkpkl.cpp and mkmap.cpp individually.
+Than link each of them with asdcplib, openssl and expat.
 
 *Is my OS supported ?*
 
@@ -37,7 +43,7 @@ The answer is simple, if asdcplib, openssl and expat compile on your OS, the com
 
 *Where is the makefile ?*
 
-Cuurently, no makefile exists. You need to compile and link with asdcplib, openssl and expat.
+Cuurently, no makefile exists. You need to compile and link with asdcplib, openssl and expat. A future version will include a makefile for easier build.
 
 *Some parts of the code source look like asdcplib, why ?*
 
