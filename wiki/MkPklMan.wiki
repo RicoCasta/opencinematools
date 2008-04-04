@@ -1,4 +1,4 @@
-#summary MAN Page of mkpkl
+#summary MAN page of mkpkl
 
 ==NOM==
 
