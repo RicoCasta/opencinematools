@@ -16,7 +16,9 @@ This is the first release. This version includes 3 command line tools:
   * [MkCpl mkcpl]
   * [MkPkl mkpkl]
   * [MkMap mkmap]
-There is currently no GUI. Subtitiles are not supported.
+There is currently no GUI. Subtitles are not supported.
+
+http://code.google.com/p/opencinematools/downloads/list
 
 [OneDotZeroDotZeroReleaseNote Release Notes]
 
