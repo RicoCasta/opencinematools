@@ -1,0 +1,17 @@
+#summary Command Line Tools Tutorial
+
+= Introduction =
+There are several steps to create digital cinema package:
+  # Color transform the picture if needed
+  # Create the MXF files
+  # Create one or more composition playlist
+  # Create one or more packing list
+  # Create an asset map
+  # Copy the files on a compliant media
+
+
+= Details =
+
+[MkCplMan mkcpl]
+  * [MkPklMan mkpkl]
+  * [MkMapMan mkmap]
