@@ -27,7 +27,12 @@ Yes. You just need to add several files. Refer to CommandLineTutorial for detail
 Use [http://www.cinecert.com/asdcplib asdcplib] or any other digital cinema package creation tool.
 
 *Can I add markers in the composition playlist ?*
+
 No. Markers are not currently supported.
+
+*mkpkl takes a long time to complete. Why?*
+
+mkpkl has to compute the hash code, so it parses all the file which could take some time if the file is large.
 
 ==Compilation==
 *How to compile with Visual Studio ?*
