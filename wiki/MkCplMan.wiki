@@ -1,4 +1,4 @@
-#summary MAN Page of mkcpl
+#summary MAN page of mkcpl
 
 ==NOM==
 
