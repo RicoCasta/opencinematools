@@ -6,6 +6,10 @@
 
 Only command line creation is currently supported. Refer to CommandLineTutorial for details.
 
+*On windows, I can't execute mkcpl, mkpkl nor mkmap. Some DLL are missing*
+
+Install the [http://www.microsoft.com/downloads/details.aspx?FamilyID=9B2DA534-3E03-4391-8A4D-074B9F2BC1BF&displaylang=en Microsoft Visual C++ 2008 Redistributable Package (x86)]
+
 *How can I add a subtitle in my DCP ?*
 
 Subtitling is not supported in this release.
