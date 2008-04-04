@@ -55,9 +55,9 @@ Version UID. Default generates a new id.
 *--versionlabel* label
   Version label. Default is the versionid.
 
-*--rating agency* label
+*--rating* agency label
   Defines a rating agency and label.
-  Default is --rating http://www.mpaa.org G
+  Default is *--rating* http://www.mpaa.org G
 
 *--norating*
   Removes the default rating.
@@ -69,7 +69,10 @@ mkcpl has the following return code:
 *0* Success
 || other return codes need to be added here ||
 
-==Examples==
+==EXAMPLE==
+*Single reel feature with default rating*
+*mkcpl --kind* feature *--title* "my movie" mypicture.mxf mysound.mxf *>* mymoviecompo.cpl.xml
+
 
 ==SEE ALSO==
 [MkPklMan mkpkl], [MkMapMan mkmap]
