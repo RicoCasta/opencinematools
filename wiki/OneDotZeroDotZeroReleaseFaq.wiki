@@ -3,24 +3,31 @@
 = Release 1.0.0 Frequently Asked Questions =
 ==General==
 *How can I create a DCP ?*
+
 Only command line creation is currently supported. Refer to CommandLineTutorial for details.
 
 *How can I add a subtitle in my DCP ?*
+
 Subtitling is not supported in this release.
 
 *Where is the GUI ?*
+
 There is no GUI. Only command line tools are provided in this release.
 
 *What type of assets are supported ?*
+
 Currently, only JP2K and PCM 48k are supported.
 
 *Can I have multiple reels ?*
+
 Yes. You just need to add several files. Refer to CommandLineTutorial for details.
 
 *How do I created .mxf files ?*
+
 Use [http:\\www.cinecert.com\asdcplib asdcplib] or any other digtal cinema package creation tool.
 
 *Some parts of the code source look like asdcplib, why ?*
+
 mkcpl, mkpkl and mkmap are heavely inspired from [http:\\www.cinecert.com\asdcplib asdcplib]. Collaboration with it's author as been the kickstart this project needed. Thanks John :)
 
 ==Compilation==
