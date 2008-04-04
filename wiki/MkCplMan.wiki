@@ -21,7 +21,7 @@ mkcpl - Create a composition playlist
 *mkcpl [-h | --help] [-V | --version]
 
 ==DESCRIPTION==
-Creates a composition playlist which is displayed on stdout.
+Creates a composition playlist displayed on the standard output.
 You need to redirect the output to create a file. See examples below.
 
 ==OPTIONS==
