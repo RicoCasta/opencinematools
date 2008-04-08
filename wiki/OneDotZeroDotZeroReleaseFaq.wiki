@@ -41,7 +41,7 @@ mkpkl has to compute the hash code, so it parses all the file which could take s
 ==Compilation==
 *How to compile with Visual Studio ?*
 
-Download the vs2005 version, open OpenCinemaTools.sln and compile.
+Download opencinematools-1.0.0-src-msvc.zip, open OpenCinemaTools.sln and compile.
 
 *How to compile on Linux/MacOS ?*
 
