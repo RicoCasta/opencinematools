@@ -1,4 +1,5 @@
 #summary Open Cinema Tools Wiki Index
+#labels Featured
 
 = Introduction =
 
