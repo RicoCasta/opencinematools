@@ -1,5 +1,4 @@
 #summary Release Note 1.0.0
-#labels Featured
 
 = General =
 
