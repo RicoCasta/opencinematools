@@ -1,0 +1,9 @@
+#summary News of the project
+#labels Featured
+
+= NAB'08 =
+
+Open Cinema Tools are presented at the Digital Cinema summit in the Practical D-Cinema Mastering session.
+
+[http://www.mediafire.com/?mdgjgvf90j9 Download Presentation]
+
