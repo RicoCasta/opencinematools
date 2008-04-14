@@ -26,11 +26,6 @@ For more details see the ReleaseNote and the ReleaseFaq.
 = Tutorials =
 [CommandLineTutorial How to create a DCP using command line tools ?]
 
-= FAQ =
-[GeneralFaq General]
-
-[OneDotZeroDotZeroReleaseFaq Release 1.0.0 FAQ]
-
 = Specifications =
 [GuiRequirements List of the requirements of the graphical user interface]
 
