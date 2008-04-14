@@ -3,15 +3,17 @@
 
 
 *Release 1.0.1*,,(09/04/2008),,
+
 Minor bug fix that dosn't impact the DCP creation.
 Added Missing file for the binary release.
-ReleaseNote ReleaseFaq 
+ReleaseNote ReleaseFaq [http://code.google.com/p/opencinematools/downloads/list Download]
 
 *NAB'08*,,(12/04/2008),,
+
 Open Cinema Tools are presented at the Digital Cinema Summit in the Practical D-Cinema Mastering session.
 
 [http://www.mediafire.com/?mdgjgvf90j9 Download Presentation]
 
 *Release 1.0.0*,,(09/04/2008),,
 
-[OneDotZeroDotZeroReleaseNote Release Notes] [OneDotZeroDotZeroReleaseFaq FAQs]
+[OneDotZeroDotZeroReleaseNote Release Notes] [OneDotZeroDotZeroReleaseFaq FAQs] [http://code.google.com/p/opencinematools/downloads/list Download]
