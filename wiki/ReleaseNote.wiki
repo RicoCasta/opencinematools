@@ -1,0 +1,29 @@
+#summary Release Note 1.0.1
+
+= General =
+
+This is the first release. This version includes 3 command line tools:
+  * mkcpl
+  * mkpkl
+  * mkmap
+
+There is currently no GUI. Subtitles are not supported.
+Only JP2K and PCM 48k are supported.
+
+= Download =
+There are currently 3 different downloads.
+
+To use directly on Windows, download opencinematools-1.0.1-bin-win32.zip
+
+To compile on Windows, download opencinematools-1.0.1-src-msvc.zip
+
+To compile on any other system download opencinematools-1.0.1-src.zip
+
+Read the [ReleaseFaq FAQs] for more details.
+
+= Known Issues =
+  * different errors can return the same return code for the command line tools
+
+= Changes From Release 1.0.0 =
+- Fixed bug when using mkcpl -h
+- Added libexpat.dd in opencinematools-1.0.1-bin-win32.zip
