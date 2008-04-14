@@ -19,11 +19,11 @@ This version includes 3 command line tools:
   * [MkMapMan mkmap]
 There is currently no GUI. Subtitles are not supported.
 
-[http://code.google.com/p/opencinematools/downloads/list Download]
-
 For more details see the [ReleaseNote Release Notes]
 
 [ReleaseFaq FAQ]
+
+[http://code.google.com/p/opencinematools/downloads/list Go to the Download section.]
 
 = Tutorials =
 [CommandLineTutorial How to create a DCP using command line tools ?]
