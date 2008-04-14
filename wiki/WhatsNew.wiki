@@ -1,8 +1,15 @@
 #summary News of the project
 #labels Featured
 
-= NAB'08 =
 
+= 14/04/2008 New Release =
+Release of the 1.0.1 version. 
+
+Minor bug fix that dosn't impact the DCP creation.
+Added Missing file for the binary release.
+ReleaseNote ReleaseFaq
+
+= NAB'08 =
 Open Cinema Tools are presented at the Digital Cinema Summit in the Practical D-Cinema Mastering session.
 
 [http://www.mediafire.com/?mdgjgvf90j9 Download Presentation]
