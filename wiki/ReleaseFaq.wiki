@@ -1,0 +1,65 @@
+#summary Release 1.0.1 Faqs
+
+= Release 1.0.1 Frequently Asked Questions =
+==General==
+*How can I create a DCP ?*
+
+Only command line creation is currently supported. Refer to CommandLineTutorial for details.
+
+*On Windows, I can't execute mkcpl, mkpkl nor mkmap. Some DLL are missing.*
+
+Install the [http://www.microsoft.com/downloads/details.aspx?FamilyID=9B2DA534-3E03-4391-8A4D-074B9F2BC1BF&displaylang=en Microsoft Visual C++ 2008 Redistributable Package (x86)]
+
+*How can I add a subtitle in my DCP ?*
+
+Subtitling is not supported in this release.
+
+*Where is the GUI ?*
+
+There is no GUI. Only command line tools are provided in this release.
+
+*What type of assets are supported ?*
+
+Currently, only JP2K and PCM 48k are supported.
+
+*Can I have multiple reels ?*
+
+Yes. You just need to add several files. Refer to CommandLineTutorial for details.
+
+*How do I created .mxf files ?*
+
+Use [http://www.cinecert.com/asdcplib asdcplib] or any other digital cinema package creation tool.
+
+*Can I add markers in the composition playlist ?*
+
+No. Markers are not currently supported.
+
+*mkpkl takes a long time to complete. Why?*
+
+mkpkl has to compute the hash code, so it parses all the file which could take some time if the file is large.
+
+==Compilation==
+*How to compile with Visual Studio ?*
+
+Download opencinematools-1.0.0-src-msvc.zip, open OpenCinemaTools.sln and compile.
+
+*How to compile on Linux/MacOS ?*
+
+Compile asdcplib 1.3.18 with expat support(see asdplib doc for details).
+Compile mkcpl.cpp, mkpkl.cpp and mkmap.cpp individually.
+Than link each of them with asdcplib, openssl and expat.
+
+*Is my OS supported ?*
+
+The answer is simple, if asdcplib, openssl and expat compile on your OS, the command line tools should compile too.
+
+*Where is the makefile ?*
+
+Currently, no makefile exists. You need to compile and link with asdcplib, openssl and expat. A future version will include a makefile for easier build.
+
+*Is the source code on SVN ?*
+Not yet, but it will be available soon.
+
+*Some parts of the code source look like asdcplib, why ?*
+
+mkcpl, mkpkl and mkmap use and are heavely inspired from [http://www.cinecert.com/asdcplib asdcplib]. Collaboration with it's author as been the kickstart this project needed. Thanks John :)
