@@ -16,5 +16,7 @@ Open Cinema Tools are presented at the Digital Cinema Summit in the Practical D-
 
 *First Release*^(09/04/2008)^
 
+*First Release*,,(09/04/2008),,
+
 [OneDotZeroDotZeroReleaseNote Release Notes]
 [OneDotZeroDotZeroReleaseFaq FAQs]
