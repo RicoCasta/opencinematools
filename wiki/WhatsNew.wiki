@@ -5,7 +5,9 @@
 *Release 1.0.1*,,(09/04/2008),,
 
 Minor bug fix that dosn't impact the DCP creation.
+
 Added Missing file for the binary release.
+
 ReleaseNote ReleaseFaq [http://code.google.com/p/opencinematools/downloads/list Download]
 
 ----
