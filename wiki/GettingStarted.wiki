@@ -12,12 +12,15 @@ The goals for Open Cinema Tools are:
 See www.opencinematools.org for executive details.
 
 = Release Note Summary =
-== Release 1.0.1 ==
+== Release 1.1.2 ==
+
 This version includes 3 command line tools:
-  * [MkCplMan mkcpl]
-  * [MkPklMan mkpkl]
-  * [MkMapMan mkmap]
-There is currently no GUI. Subtitles are not supported.
+  * mkcpl
+  * mkpkl
+  * mkmap
+
+And a GUI for Windows.
+  * DcpMaker
 
 For more details see the ReleaseNote and the ReleaseFaq.
 
