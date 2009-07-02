@@ -22,7 +22,7 @@ There are currently 2 different downloads.
 
 To use directly on Windows, download opencinematools-1.1.2-bin-win32.zip
 
-To compile on Windows, Unix and Mac OS X, download opencinematools-1.0.1-src.zip
+To compile on Windows, Unix and Mac OS X, download opencinematools-1.1.2-src.zip
 
 Read the [ReleaseFaq FAQs] for more details.
 
