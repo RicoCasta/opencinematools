@@ -30,12 +30,12 @@ Read the [ReleaseFaq FAQs] for more details.
   * different errors can return the same return code for the command line tools
 
 = Changes From Release 1.0.1 =
-* Fixed memory alloc bug
-* Added 3D support
-* Replace some Interop tag by their SMPTE equivalents.
-* Added GUI
-* Added libexpat.dd in opencinematools-1.0.1-bin-win32.zip
+  * Fixed memory alloc bug
+  * Added 3D support
+  * Replace some Interop tag by their SMPTE equivalents.
+  * Added GUI
+  * Added libexpat.dd in opencinematools-1.0.1-bin-win32.zip
 
 = Changes From Release 1.0.0 =
-* Fixed bug when using mkcpl -h
-* Added libexpat.dd in opencinematools-1.0.1-bin-win32.zip
+  * Fixed bug when using mkcpl -h
+  * Added libexpat.dd in opencinematools-1.0.1-bin-win32.zip
