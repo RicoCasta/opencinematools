@@ -1,6 +1,6 @@
-#summary Release 1.0.1 Faqs
+#summary Release 1.1.2 Faqs
 
-= Release 1.0.1 Frequently Asked Questions =
+= Release 1.1.2 Frequently Asked Questions =
 ==General==
 *How can I create a DCP ?*
 
@@ -41,24 +41,18 @@ mkpkl has to compute the hash code, so it parses all the file which could take s
 ==Compilation==
 *How to compile with Visual Studio ?*
 
-Download opencinematools-1.0.0-src-msvc.zip, open OpenCinemaTools.sln and compile.
+Read the supplied README.txt in the root of the package.
 
 *How to compile on Linux/MacOS ?*
 
-Compile asdcplib 1.3.18 with expat support(see asdplib doc for details).
-Compile mkcpl.cpp, mkpkl.cpp and mkmap.cpp individually.
-Than link each of them with asdcplib, openssl and expat.
+Read the supplied README.txt in the root of the package.
 
 *Is my OS supported ?*
 
 The answer is simple, if asdcplib, openssl and expat compile on your OS, the command line tools should compile too.
 
-*Where is the makefile ?*
-
-Currently, no makefile exists. You need to compile and link with asdcplib, openssl and expat. A future version will include a makefile for easier build.
-
 *Is the source code on SVN ?*
-Not yet, but it will be available soon.
+Not yet, but it will be available later.
 
 *Some parts of the code source look like asdcplib, why ?*
 
