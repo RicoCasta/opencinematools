@@ -1,0 +1,49 @@
+## NOM ##
+
+mkmap - Create an asset map
+
+## SYNOPSIS ##
+
+**mkmap** file**[**file...**]**
+
+**mkmap** **[--annotation** "annotation"**] [--issuer** "issuer"**]** file**[**file...**]**
+
+**mkmap[-h | --help] [-V | --version]**
+
+## DESCRIPTION ##
+Creates ASSETMAP and VOLINDEX files in the current directory.
+The files that can be added to the asset map are .mxf(picture or sound), composition playlists and packing lists
+You can add as many files as you want if they are of the previously described types.
+
+## OPTIONS ##
+**-h | --help**
+> Show help
+
+**-V | --version**
+> Show version information
+
+**--annotation** "annotation"
+> Annotation text
+
+**--issuer** "issuer"
+> Issuer name
+
+## RETURN CODES ##
+
+**mkpkl** has the following return code:
+
+**0** Success
+| other return codes need to be added here |
+|:-----------------------------------------|
+
+## EXAMPLE ##
+### Simple asset map ###
+
+**mkmap** mypicture.mxf mysound.mxf mymoviecompo.cpl.xml mymoviepackage.pkl.xml
+
+### Asset map with issuer and annotation text ###
+
+**mkmap --issuer** "me" **--annotation** "an annotation" mypicture.mxf mysound.mxf mymoviecompo.cpl.xml mymoviepackage.pkl.xml
+
+## SEE ALSO ##
+[mkcpl](MkCplMan.md), [mkpkl](MkPklMan.md)

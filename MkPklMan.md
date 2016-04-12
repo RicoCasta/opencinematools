@@ -1,0 +1,50 @@
+## NOM ##
+
+mkpkl - Create a packing list
+
+## SYNOPSIS ##
+
+**mkpkl** file**[**file...**]**
+
+**mkpkl** **[--annotation** "annotation"**] [--issuer** "issuer"**]** file**[**file...**]**
+
+**mkpkl [-h | --help] [-V | --version]**
+
+## DESCRIPTION ##
+Creates a packing list displayed on the standard output.
+You need to redirect the output to create a file. See examples below.
+The files that can be packaged are .mxf(picture or sound) and composition playlists.
+You can package as many files as you want if they are of the previously described types.
+
+## OPTIONS ##
+**-h | --help**
+> Show help
+
+**-V | --version**
+> Show version information
+
+**--annotation** "annotation"
+> Annotation text
+
+**--issuer** "issuer"
+> Issuer name
+
+## RETURN CODES ##
+
+**mkpkl** has the following return code:
+
+**0** Success
+| other return codes need to be added here |
+|:-----------------------------------------|
+
+## EXAMPLE ##
+### Simple packaging ###
+
+**mkpkl** mypicture.mxf mysound.mxf mymoviecompo.cpl.xml **>** mymoviepackage.pkl.xml
+
+### Packaging with issuer and annotation text ###
+
+**mkpkl --issuer** "me" **--annotation** "an annotation" mypicture.mxf mysound.mxf mymoviecompo.cpl.xml **>** mymoviepackage.pkl.xml
+
+## SEE ALSO ##
+[mkcpl](MkCplMan.md), [mkmap](MkMapMan.md)

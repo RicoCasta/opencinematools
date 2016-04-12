@@ -1,0 +1,11 @@
+| **These contraints are subject to change and are purely informative. Contact server manufacturer for detailed info.** |
+|:----------------------------------------------------------------------------------------------------------------------|
+
+# DCDM Constraints #
+Here is a simple overview of the current industry contraints.
+A detailed view will come later on.
+
+  * Picture and sound must have the exact same duration
+  * Picture and sound edit rates must be the same
+  * Picture must be JP2K encoded
+  * Sound must be 48k
